@@ -1,0 +1,28 @@
+#include "resource.h"
+
+ID_FILE MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM        "&Options",    ID_FILE_OPTIONS
+        MENUITEM        SEPARATOR
+        MENUITEM        "&Save",       ID_FILE_SAVE
+        MENUITEM        "&Open",       ID_FILE_OPEN
+        MENUITEM        SEPARATOR
+        MENUITEM        "&Exit",       ID_FILE_EXIT
+    END
+
+    POPUP "&Format"
+    BEGIN
+        MENUITEM        "&Font",       ID_FORMATING_FONT
+        MENUITEM        "&Size",       ID_FORMATING_SIZE
+        MENUITEM        "&Enconding",  ID_FORMATING_FONT
+        MENUITEM        "&More",       ID_FORMATING_FONT
+
+    END
+
+    POPUP "&Help"
+    BEGIN
+        MENUITEM        "&Nope.",      ID_STUFF_GO
+    END
+END

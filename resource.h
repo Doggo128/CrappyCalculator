@@ -1,0 +1,9 @@
+#define ID_FILE                     101
+#define ID_FILE_EXIT                102
+#define ID_STUFF_GO                 103
+#define ID_FILE_OPTIONS             104
+#define ID_FILE_SAVE                105
+#define ID_FILE_OPEN                106
+#define ID_SPACER                   107
+#define ID_FORMATING_FONT           108
+#define ID_FORMATING_SIZE           109
